@@ -1,10 +1,10 @@
-# ðŸ¤– DegenCred Bot
+# DegenCred Bot
 
 DegenCred is a fully autonomous **Telegram micro-lending bot** built for crypto communities. It integrates tightly with **CWallet-style bots** like `@gCodezWallet_bot` to monitor, manage, and automate decentralized trust, loan, and reputation systems.
 
 ---
 
-## ðŸš€ Features
+##  Features
 
 - ðŸ’¸ **Level-Based Microloans** with interest, credit scoring, and repayment tracking
 - ðŸ‘¤ **User Reputation & Badge System** based on CWallet interactions
@@ -15,7 +15,7 @@ DegenCred is a fully autonomous **Telegram micro-lending bot** built for crypto 
 
 ---
 
-## ðŸ§± Tech Stack
+##  Tech Stack
 
 - Python 3.11
 - PostgreSQL (via asyncpg)
@@ -25,7 +25,7 @@ DegenCred is a fully autonomous **Telegram micro-lending bot** built for crypto 
 
 ---
 
-## ðŸ“¦ Setup Instructions
+##  Setup Instructions
 
 ### 1. Clone the repo
 
@@ -67,7 +67,7 @@ fly deploy
 
 ---
 
-## ðŸ“š Key Commands
+## Key Commands
 
 | Command | Description |
 |---------|-------------|
@@ -81,7 +81,7 @@ fly deploy
 
 ---
 
-## ðŸ§  Project Structure
+##   Project Structure
 
 ```
 .
@@ -102,8 +102,8 @@ fly deploy
 
 ---
 
-## âš ï¸ License
+## License
 
-This project is private and under development by **@GambleCodez**. Not for redistribution.
+This project is private and under development by **@GambleCodez**. Not for redistribution. https://t.me/GambleCodezPrizeHub
 
 ---
