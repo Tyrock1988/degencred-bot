@@ -1,0 +1,30 @@
+# Don't commit your secret environment file
+.env
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.env/
+.venv/
+env/
+
+# VSCode or PyCharm settings (optional)
+.vscode/
+.idea/
+
+# Log files
+*.log
+
+# Byte-compiled / build / distribution files
+*.egg-info/
+dist/
+build/
+*.tar.gz
+*.zip
+
+# Fly.io and deployment artifacts (if any)
+fly.toml
