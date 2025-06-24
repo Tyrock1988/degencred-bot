@@ -19,6 +19,10 @@ setup_handlers(telegram_app)
 def health_check():
     return {"status": "ok"}
 
+@app.get("/health")
+def detailed_health_check():
+    return {"status": "degencred bot online", "webhook": True}
+
 @app.post("/webhook")
 async def telegram_webhook(request: Request):
     data = await request.json()
@@ -30,14 +34,8 @@ async def telegram_webhook(request: Request):
 if __name__ == "__main__":
     async def run():
         await telegram_app.initialize()
-        # Optionally set webhook via code:
         await telegram_app.bot.set_webhook(url="https://degencred-bot.fly.dev/webhook")
         await telegram_app.start()
-        config_web = {
-            "host": "0.0.0.0",
-            "port": 8080,
-        }
-        # Run FastAPI
-        uvicorn.run(app, **config_web)
+        uvicorn.run(app, host="0.0.0.0", port=8080)
 
     asyncio.run(run())
